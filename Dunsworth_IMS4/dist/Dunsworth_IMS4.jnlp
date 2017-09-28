@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Dunsworth_IMS4.jnlp">
+  <information>
+    <title>Dunsworth_IMS4</title>
+    <vendor>tony.dunsworth</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Dunsworth_IMS4.jar" size="41766" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Dunsworth_IMS4" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="dunsworth_ims4.MainApp"  name="Dunsworth_IMS4" />
+  <update check="always"/>
+</jnlp>
